@@ -64,7 +64,7 @@ function ErrorBoundary(){
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/web2025/',
     Component: Root,
     ErrorBoundary: ErrorBoundary,
     children: [
