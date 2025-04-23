@@ -5,8 +5,8 @@ function Owo(){
     const [result, setResult] = useState();
     const [nsfw, setNsfw] = useState(false);
 
-    function nsfwToggle(){
-        setNsfw(!nsfw);
+    function nsfwToggle(e){
+        setNsfw(e.target.value);
     }
 
     function makeRequest(){
